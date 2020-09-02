@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityTwo"
+    android:orientation="vertical"
+    android:background="#2E44BD"
+>
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+    />
+
+    <TextView
+        android:id="@+id/text_topping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:text="@string/topping"
+        tools:ignore="RtlHardcoded"
+    />
+
+    <CheckBox
+        android:id="@+id/chb_whiped_cream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chb_whiped_cream"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:buttonTint="#FFFFFF"
+        tools:ignore="UnusedAttribute"
+    />
+
+    <CheckBox
+        android:id="@+id/chb_chocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chb_chocolate"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:buttonTint="#FFFFFF"
+        tools:ignore="UnusedAttribute"
+    />
+
+    <TextView
+        android:id="@+id/text_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:text="@string/quantity"
+        tools:ignore="RtlHardcoded"
+    />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+    >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lees"
+            tools:ignore="ButtonStyle"
+            android:onClick="lees"
+        />
+
+        <TextView
+            android:id="@+id/tv_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/number"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/more"
+            tools:ignore="ButtonStyle"
+            android:onClick="more"
+        />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_sent"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:onClick="toBuy"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_call"
+        android:textSize="20sp"
+        android:onClick="toCall"
+    />
+
+</LinearLayout>

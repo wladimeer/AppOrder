@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppIntentTwo</string>
+    <string name="txt_name">Ingresa tu Nombre</string>
+    <string name="bt_sent">REALIZAR PEDIDO</string>
+    <string name="topping">Añadir</string>
+    <string name="chb_whiped_cream">Whiped Cream</string>
+    <string name="chb_chocolate">Chocolate</string>
+    <string name="quantity">Cantidad</string>
+    <string name="lees">-</string>
+    <string name="more">+</string>
+    <string name="number">1</string>
+    <string name="bt_call">REALIZAR LLAMADA</string>
+</resources>
